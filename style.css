@@ -84,7 +84,8 @@ div.destaque {
 
 }
 div.destaque > img {
-     width:425px;
+     width:80vw;
+     max-width: 400px;
      display: block;
   margin: 0px auto;
      padding-top:12px;
@@ -127,13 +128,24 @@ div.garantia {
     border-radius: 20px;
     margin: auto;
     padding: 5px;
-    width: 400px;
-   background-color:#41f1e563;
+    width: 80vw;
+    max-width: 400px;
+    background-color:#41f1e563;
 
 }
-footer {
-    font-size: small;
-   background-color: white;
+div.video > iframe {
+    position: absolute;
+    top:5% ;
+    left:5%  ;
+    width: 90%;
+    height: 90%;
 
-    font-family: 'Courier New', Courier, monospace;
+}
+div.video {
+        position: relative;
+        background-color: #212f54;
+        margin-bottom: 30px;
+        padding: 20px;
+        padding-bottom: 50%;
+
 }
