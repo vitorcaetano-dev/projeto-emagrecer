@@ -57,6 +57,10 @@ header {
     padding: 10px;
     box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.386);
 }
+div.faq {
+    padding: 10px;
+    font-size: smaller;
+}
 header > h1  {
     text-align: center;
     font-weight: bold;
